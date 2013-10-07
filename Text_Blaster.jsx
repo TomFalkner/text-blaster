@@ -1,4 +1,4 @@
-﻿#targetengine TEXTBLASTER
+#targetengine TEXTBLASTER
 /*
    The TEXT BLASTER
 
@@ -6,10 +6,7 @@
    the job - either in a text frame or by replacing selected text. Companion file blastit.jsx allows
    keyboard shortcut to be used to place text in job.
 
-REASON: Copy & Paste by hand is slow and boring.
-
-Companion scripts 
-
+   REASON: Copy & Paste by hand is slow and boring.
 */
 
 var myDoc = app.activeDocument;
