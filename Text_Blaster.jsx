@@ -73,7 +73,7 @@ function getFile(){
 }
 
 function filter(file) { 
-    ///Utility function for getFile to make sure no one sneaks a .doc or .jpg in
+    //Utility function for getFile to make sure no one sneaks a .doc or .jpg in
     var myMatch = file.name.match(/\.txt$/i) != null; 
     if(myMatch){
         return myMatch;
@@ -110,7 +110,7 @@ function goBack(){
     }
 }
 function blastText(){
-    ///This function checks to see if text or a text box has been selected. Calls myInsertText to place copy
+    // This function checks to see if text or a text box has been selected. Calls myInsertText to place copy
     if(app.documents.length != 0){
         if(app.selection.length ==1){
             switch (app.selection[0].constructor.name){
@@ -138,7 +138,7 @@ function blastText(){
 }
 function myInsertText(myTextObject){
     // This function adds/replaces the text & 
-    ///advances the myText array by one (updating the preview)
+    // advances the myText array by one (updating the preview)
     if (dlg.plusReturn.value){
         myTextObject.contents = dlg.previewTxt.text + "\r";
     }else{
