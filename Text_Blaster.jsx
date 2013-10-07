@@ -1,4 +1,4 @@
-﻿#targetengine TEXTBLASTER
+#targetengine TEXTBLASTER
 /*
    The TEXT BLASTER
 
